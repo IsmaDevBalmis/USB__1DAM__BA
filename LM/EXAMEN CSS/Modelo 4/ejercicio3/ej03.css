@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+}
+
+main
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: grey;
+}
+
+
+
+section{
+  display: flex;
+}
+
+
+
+article{
+ width: 70vw;
+ height: 60vh;
+background-color: blue;
+
+
+}
+aside{
+  background-color: red;
+  width: 15vw;
+  height: 60vh;
+
+
+
+}
+nav{
+  background-color: green;
+  width: 15vw;
+  height: 60vh;
+
+}
+
+footer{
+  height: 20vh;
+  width: 100vw;
+  background-color: grey;
+}

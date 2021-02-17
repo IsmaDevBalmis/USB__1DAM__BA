@@ -1,0 +1,19 @@
+p:first-child
+{
+	font-style: italic;
+}
+
+p:last-child
+{
+	font-weight: bold;
+}
+
+p:nth-child(3)
+{
+	color: red;
+}
+
+p:nth-child(1)::first-letter
+{
+	font-size: 24pt;
+}

@@ -1,0 +1,17 @@
+body{
+  margin: 0%;
+  font-size: 40px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background: RGBA(255,0,0,.5);
+}
+
+div{
+  font-size: 2em;
+  width: 200px;
+  height: 200px;
+  background: #C0C0C0;
+}

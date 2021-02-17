@@ -1,0 +1,19 @@
+/*nth-child selecciona los hijos que en la fórmula están en la posición x. Los hijos se los indico antes de los :. Si no indico ninguno se presupone *.*/
+tr:nth-child(2n)
+{
+	background-color: salmon;
+}
+
+tr:nth-child(2n+1)
+{
+	background-color: #C0C0C0;
+}
+
+/*Fist-child selecciona el primer hijo de su padre de ese tipo. Por ejemplo, en este caso, selecciona el primer tr que es hijo de su padre*/
+tr:first-child, tr:last-child
+{
+	text-align: center;
+	font-size: 1.5em;
+	color:white;
+	background: black;
+}

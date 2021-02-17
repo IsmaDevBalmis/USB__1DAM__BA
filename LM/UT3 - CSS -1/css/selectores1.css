@@ -1,0 +1,18 @@
+ 
+ /* El selector * selecciona todos los elementos de la página. Por tanto, las propiedades dentro de esa regla se aplican a todo*/
+ *
+ {
+	 background-color: orange;
+ }
+ 
+ /* Selector de etiqueta. Poniendo el nombre de la etiqueta todas las ocurrencias de la misma se le aplican las propiedades aquí indicadas*/
+ h1
+ {
+	 color: blue;
+ }
+ 
+ /* Selector , sirve para unir (y)*/
+ h2,h3
+ {
+	 color: red;
+ }

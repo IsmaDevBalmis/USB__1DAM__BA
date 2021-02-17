@@ -1,0 +1,11 @@
+/* El fichero .css tiene el siguiente formato:
+selector: indica el elemento al que quiero aplicar las propiedades
+
+propiedades: lista con todas las características que quiero cambiar. Cada propiedad va separada de la siguiente por un ;
+
+{}: Crean un bloque para poder poner las propiedads
+*/
+h1
+{
+	color: salmon;
+}

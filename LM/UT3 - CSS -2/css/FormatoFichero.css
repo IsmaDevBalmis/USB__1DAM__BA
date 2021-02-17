@@ -1,0 +1,10 @@
+/*Formato del fichero
+selector (h1): sirve para elegir a qué elemento quiero cambiar las propiedas
+{}: sirven para poner dentro las propiedades
+propiedad: valor; : sirven para indicar la característica que quiero aplicar
+*/
+
+h1
+{
+	color: orange;
+}

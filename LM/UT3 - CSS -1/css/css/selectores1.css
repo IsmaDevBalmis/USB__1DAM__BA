@@ -1,0 +1,27 @@
+/* El selector * selecciona todos los elementos de la página.
+Por lo tanto, las propiedades dentro de esa regla se aplica a todo */
+
+.titulo{
+  font-size: 48pt;
+  color: blue;
+
+}
+.espaciado{
+    margin: 20px;
+}
+#titulo2{
+  color: orange;
+  font-size: 56pt;
+}
+
+p span{
+  color: red;
+}
+
+span{
+  color: green;
+}
+
+p{
+  color: blue;
+}

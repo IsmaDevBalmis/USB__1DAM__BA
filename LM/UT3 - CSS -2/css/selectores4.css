@@ -1,0 +1,20 @@
+a{
+  display: block;
+  font-size: 2em;
+}
+/*Todos los enlaces que tengan el atributo title se pondrán de un color azul CornflowerBlue. Por eso el primero, segundo y tercero, tienen un color diferente al cuarto enlace*/
+a[title]
+{
+  color: CornflowerBlue;
+
+}
+
+/*El enlace favorito, lo subrayo de color naranja*/
+a[title="favorita"]
+{
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+/*Los tutoriales en español, los destaco en amarillo para que sepamos cuáles son*/
+a[lang|="es"] { background: yellow;}

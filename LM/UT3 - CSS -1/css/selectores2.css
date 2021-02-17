@@ -1,0 +1,33 @@
+ 
+ .titulo
+ {
+	 font-size: 48pt;
+	 color: blue;
+ }
+ 
+ .espaciado
+ {
+	margin: 120px;
+ }
+ 
+ #titulo2
+ {
+	 color: orange;
+	 font-size: 56pt;
+ }
+ 
+ p span
+ {
+	 color: red;
+ }
+ 
+ span
+ {
+	 color: green;
+ }
+ 
+ p{
+	 color: blue;
+ }
+	 
+ 

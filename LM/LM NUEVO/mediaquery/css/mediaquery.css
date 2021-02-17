@@ -1,0 +1,33 @@
+
+header{
+  height: 20vh;
+  width: 100vw;
+  background: red;
+}
+
+section{
+  display: flex;
+  height: 60vh;
+  max-width: 100vw;
+flex-direction: row;
+}
+
+article{
+  height: 60vh;
+  width: 100vw;
+  background: red;
+  border: 2px solid blue;
+}
+
+footer{
+  display: flex;
+  height: 20vh;
+  width: 100vw;
+}
+
+div{
+  height: 20vh;
+  width: 100vw;
+  flex-direction: row;
+  background: red;
+}

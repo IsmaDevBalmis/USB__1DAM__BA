@@ -1,0 +1,63 @@
+/*Para saber en que directorio estoy */
+-pwd
+
+/*Inicializar git (crea la carpeta .git) */
+-git init
+
+/*Listar todo */
+-ls -a
+
+/*crear fichero */
+-touch nombre
+
+
+/*comando que usamos mucho */
+-git status
+
+/*para incorporar un fichero en git */
+-git add <file>
+
+/*subir al repo */
+git commit -m "mensaje"
+
+/*hacer un commit sin pasar por el area de preparacion */
+-git commit -a -m ""
+
+
+/*ver los ficheros de log (diario) */
+-git log
+
+
+
+
+git show
+
+
+
+
+/*el fichero .gitignoire es para no subir x cosas al repositorio */
+
+
+/*crear una rama */
+
+git branch nombreRama
+
+o
+
+git checkout -b japonesa // para hacerlo en un solo paso
+
+/*saltar a una rama */
+
+git checkout "nombreRama"
+
+/*ver en que rama estoy y cuales tengo */
+
+git branch
+
+
+/* mezclar las 2 ramas */
+
+git merge nombreAMezclar // Cuidado con los conflictos de ficheros
+
+
+

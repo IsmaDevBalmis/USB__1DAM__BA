@@ -1,0 +1,158 @@
+@keyframes myanimation-form {
+  0%{
+    width: 0%;
+    height: 0%;
+  }
+  25%{
+  }
+  50%{
+    width: 350px;
+    height: 466px;  
+  }
+  75%{
+  }
+  100%{
+      
+
+  }
+
+}
+@keyframes myanimation-input {
+  0%{
+    width: 0px;
+    height: 0px;
+  }
+  25%{
+  }
+  50%{
+    width: 320px; 
+    height: 30px;
+  }
+  75%{
+  }
+  100%{
+    
+  }
+
+}
+
+
+
+body
+{
+  margin: 0px;
+  background: rgba(0, 0, 0, 0.2);
+  font-family: 'Dancing Script', cursive;
+}
+
+main
+{
+
+	min-height: 100vh;
+	max-width: 100vw;
+
+
+}
+
+header{
+  
+  display: flex;
+  justify-content: center;
+  margin: 225 auto;
+}
+
+section{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+form{
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 100px #666;
+  animation-name: myanimation-form;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  
+}
+
+label{
+/*  border: 3px solid blue;*/
+
+align-self: flex-start;
+margin: 10px 0px;
+margin-left: 1rem;
+
+
+
+}
+
+input{
+
+    width: 320px;
+    height: 30px;
+
+    animation-name: myanimation-input;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+    
+
+}
+
+.btn-Enviar{
+
+  width: 70px;
+  height: 40px;
+  background: rgba(0,255,0,0.2);
+  border-radius: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: 'Dancing Script', cursive;
+
+
+
+}
+
+.recordar-contraseña{
+  width: 20px;
+  height: 20px;
+  margin: 40px 10px 40px 10px;
+  
+
+}
+
+.recordar{
+  display: inline;
+}
+
+
+nav {
+  justify-content: space-around;
+  /*margin-top: 16px;
+  margin-right: 20px;*/
+  
+ /* justify-items: center;*/
+  text-align: center;
+  width: 70vw;
+
+}
+a{
+  padding: 10px;
+  height: 20px;
+  width: 70px;
+  background: #256;
+}
+
+aside{
+  margin:30px;
+}
+
+div{
+  display: flex;
+}

@@ -1,0 +1,19 @@
+ /*Selector de clase: se representa con un . y un nombre*/
+ .titulo
+ {
+	font-size: 96pt;
+	color: cyan;
+ }
+ 
+ /*Cuando pongo delante de una clase el nombre de la etiqueta, solo las ocurrencias de esa etiqueta que tienen la clase subrayado serán las que apliquen las propiedaes*/
+ h1.subrayado
+ {
+	 text-decoration:underline;
+	 text-decoration-color: lime;
+ }
+ 
+ /*Selector de identificador: las propiedades que hay dentro se aplican AL ELEMENTO html que tenga el atributo id con ese valor*/
+ #titulo2
+ {
+	 color:green;
+ }

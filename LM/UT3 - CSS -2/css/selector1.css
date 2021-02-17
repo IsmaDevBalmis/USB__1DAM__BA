@@ -1,0 +1,29 @@
+/*
+	El selector de tipo * afecta a todos los elementos de la página
+*/
+*
+{
+	color: blue;
+}
+
+/*Selector de tipo etiqueta aplica las propiedades a todas las ocurrencias de esa etiqueta del html. Por ejemplo, en la siguiente regla se cambiaría el color de todos los h1*/
+h1
+{
+	color: orange;
+}
+/*Selector de tipo ,: aplica las propiedades a todos los selectores que está uniendo*/
+h2,h3
+{
+	color: green;
+}
+
+/*El selector espacio ( ) cambia las propiedades de todos los elementos que están dentro del otro elemento. En este ejemplo, se cambian todos los span que están dentro de p*/
+p span
+{
+	color: red;
+}
+
+span
+{
+	color: yellow;
+}
